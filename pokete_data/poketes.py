@@ -1456,7 +1456,7 @@ W         W""",
         "defense": 5,
         "attacks": ["fire_bite", "bite", "power_bite", "fire_ball"],
         "pool": [],
-        "miss_chance": 0,
+        "miss_chance": ,
         "desc": "Dragon like pokete with flaming attacks.",
         "lose_xp": 4,
         "rarity": 0.1,
@@ -1473,7 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
-}
+    "bambabam": {
+        "name": "Bambabam",
+        "hp": 20,
+        "atc": 20,
+        "defense": 15,
+        "attacks": ["bam", "bambam", "bam_jump", "bam_stomp", "tree_cannon"],
+        "pool": [],
+        "miss_chance": 0.47,
+        "desc": "Deer like pokete with antlers and heavy, massive feet and arms with hands",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["Fairy", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 1,
+        "ico": [{
+            "txt": r"""
+ _\_     _/_
+   \     /
+     ---
+   / O O \
+   )     (
+    \ o /
+"""
+},
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
